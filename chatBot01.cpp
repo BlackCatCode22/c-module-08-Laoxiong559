@@ -44,7 +44,7 @@ std::string recursiveApiCall(const std::string& url, const std::string& query, i
 
 int main() {
     std::string api_url = "https://api.openai.com/v1/completions";
-    std::string api_key = "YOUR_API_KEY"; // Replace with your OpenAI API key
+    std::string api_key = "HOME_RUN_KEY"; // Replace with your OpenAI API key
     std::string model = "text-davinci-002";
 
     int interactionCount = 0;
